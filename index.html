@@ -7,5 +7,9 @@
   <script>
     const canvas = document.getElementById("gameContainer");
     const ctx = canvas.getContext('2d');
+    img = new Image();
+    img.src = 'img/base.png';
+    img.onload = function(){
+    ctx.drawImage(base_image, 0, 0);
   </script>
 </html>
