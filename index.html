@@ -10,7 +10,8 @@
     const ctx = canvas.getContext('2d');
     img = new Image();
     img.src = 'playerSprite.png';
-    img.onload = ()=>{
+    //img width= height=
+    img.onload=()=>{
       ctx.drawImage(img, 0, 0);
     }
   </script>
