@@ -1,19 +1,12 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Historical Platformer</title>
+  </head>
   <body>
-    <div id="gameContainer"/>
-      <canvas id="game" width="300px" height="500px"/>
-    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.8.3/pixi.min.js"></script>
+    <script src="pixi.js"></script>
   </body>
-  <script>
-    const canvas = document.getElementById("game");
-    const ctx = canvas.getContext('2d');
-    img = new Image();
-    img.src = 'playerSprite.png';
-    //img width= height=
-    img.onload=()=>{
-      ctx.drawImage(img, 125, 205);
-      alert(img.width);
-    }
-  </script>
 </html>
