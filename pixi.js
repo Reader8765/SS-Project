@@ -160,3 +160,4 @@ function setup() {
 
   app.ticker.add(()=>Game.update());
 }
+
