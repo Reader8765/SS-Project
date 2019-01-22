@@ -1,5 +1,3 @@
-const LEVEL1MAP = [["x"," "," "," "," "],["x"," "," "," "," "],["x"," "," "," "," "],[],[]]
-
 let app = new PIXI.Application({ height: 400, width: 400 });
 let resources;
 document.body.appendChild(app.view);
